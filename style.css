@@ -1,0 +1,35 @@
+.btn {
+              display: inline-block;
+              padding: 6px 12px;
+
+              margin-bottom: 0;
+              font-size: 24px;
+              font-weight: bold;
+			  font-family: 'IBM Plex Mono', monospace;
+              line-height: 1.42857143;
+              text-align: center;
+         
+              border: 1px solid transparent;
+              border-radius: 15px;
+			  background-color:#C0C0C0;
+			  opacity:0.8;
+			  color:	black;
+            }
+			html{
+                height: 237px;
+                width: 300px;
+            }
+            body {
+                text-align:center;
+				background-image:url('background1.jpg');
+            }
+
+            button {
+                padding: 8px;
+              margin: 5px;
+            }
+ .btn:hover,
+            .btn:focus {
+              color: green;
+              text-decoration: none;
+            }
